@@ -24,8 +24,9 @@ You must write the following functions:
   return           the           [transpose           of           the
   matrix](https://en.wikipedia.org/wiki/Transpose)
 - `double   **mm_matrix_mult(int   size,   double   **matrix,   double
-  **transpose)`  --  compute  and  return the  result  of  multiplying
-  matrices `matrix` and `transpose`
+**transpose)`  --  compute  and  return  the  result  of  [multiplying
+matrices](https://en.wikipedia.org/wiki/Matrix_multiplication)
+`matrix` and `transpose`
 
 **NOTE**: You  will likely need  to retrieve the  top 2 lines  of your
   `matrix.ll`  file by  generating `main.ll`  with the  command `clang
