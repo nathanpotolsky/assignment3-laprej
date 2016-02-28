@@ -29,16 +29,15 @@ You must write the following functions:
 
 **NOTE**: You  will likely need  to retrieve the  top 2 lines  of your
   `matrix.ll`  file by  generating `main.ll`  with the  command `clang
-  -Wall -S -emit-llvm  main.c` and taking the two  lines starting with
-  `target`.
+  -Wall -S  -emit-llvm main.c` and  taking the top two  lines starting
+  with `target`.
 
 ## Grading Criteria
 
 * Correctness: 85%
-  - allocates and frees memory correctly.
-  - Computes matrix swap correctly.
+  - Print out the matrix correctly.
+  - Computes matrix transpose correctly.
   - Computes matrix multiplication correctly.
-  - Checks for return values on all functions.
 * Documentation/Comments: 15% (i.e., liberal use of comments so we can
   understand your program).
 
@@ -48,4 +47,5 @@ day  usage.  It  is a  simple enough  task to  check whether  you have
 pushed your work to Github or not: in a web browser, go to your Github
 user page  and find Assignment  3.  If it  says the last change  was X
 minutes ago, you're probably all set.   If not, contact one of the TAs
-immediately.
+immediately.  If  you still have  uncertainties about Github,  talk to
+one of the TAs or an undergraduate mentor sooner rather than later.
