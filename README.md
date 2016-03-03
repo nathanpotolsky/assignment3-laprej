@@ -1,4 +1,4 @@
-# Assignment 3
+# Assignment 3 - Justin LaPre
 Comp Org assignment 3
 
 DUE DATE: 11:59 p.m., Friday, March 11th, 2016.
