@@ -1,4 +1,7 @@
+declare double** @mm_alloc(i32);
+
 define double** @mm_transpose(i32 %size, double** %matrix) {
+  %foo = call double** @mm_alloc(i32 %size);
   ret double** %matrix;
 }
 
